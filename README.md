@@ -1,8 +1,7 @@
 # NumberGuesser
 
-- ask for users name and store in a string
-- Have a greeting that involves the users name
-- create a variable with a random number between 1 - 100
+- ask for users name and store in a string; create char[] for name
+- create a variable (correct) with a random number between 1 - 100
 - while loop for asking user the number
 - If guess is too low, respond with too low, vice versa
 - end loop when number is guessed
