@@ -32,8 +32,11 @@ int main(){
 			printf("You win! \n");
 			keepGoing = false;
 		}
-
+		if(turns >= 7){
+		printf("It took %d tries. You Lose \n", turns);
+		keepGoing = false;
+		}
 	} // end while loop
 	return(0);
-
+	
 } // end main
